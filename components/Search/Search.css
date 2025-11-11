@@ -1,0 +1,4 @@
+.input-group input:focus{
+    border: 2px solid var(--bs-primary)!important;
+    box-shadow: none!important;
+}

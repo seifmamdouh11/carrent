@@ -1,0 +1,11 @@
+.popularBtn {
+    margin: auto;
+    background-color: #edf1fa;
+    color: #4a70f8;
+    width: fit-content;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem;
+    font-size: 1.2rem !important;
+    border-radius: 12px;
+}

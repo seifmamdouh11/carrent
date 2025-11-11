@@ -1,0 +1,39 @@
+.absImg {
+    z-index: 0;
+}
+
+.homeContent {
+    margin-top: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+}
+.homeContent p{
+    font-size:1.1em;
+    letter-spacing: 1px;
+    color: var(--bs-secondary);
+}
+.firstCar {
+    position: absolute;
+    right: 0;
+    top: 3em;
+    display: block;
+    width: 100%;
+}
+@media (max-width: 768px) {
+  .firstCar {
+    position: static;
+    margin: 1em auto;
+    width: 100%;
+  }
+
+  .homeContent {
+    margin-top: 0;
+    width: 90%;
+    text-align: center;
+  }
+  .storeBtns {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+.navbar{
+    z-index: 1000;
+}
+.nav-item {
+    position: relative;
+    width: fit-content;
+}
+.nav-item::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 2px;
+    background-color: var(--bs-dark);
+    transition: all 0.3s linear;
+}
+.nav-item:hover::after{
+    width: 100%;
+}
+button{
+    transition: all .3s linear!important;
+}
